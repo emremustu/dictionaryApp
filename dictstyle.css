@@ -10,8 +10,6 @@ body{
 p{
     display: inline-flex;
     font-family: "Rubik",sans-serif;
-
-
 }
 #dictbox{
     position: absolute;
@@ -34,7 +32,6 @@ p{
 }
 #searchbox{
     display: inline-flex;
-    padding: 0;
     margin: 0.5rem 0 2rem 1.5rem ; 
 }
 #searcher{
@@ -88,9 +85,8 @@ p{
 #word{
 
     display: inline-flex;
-    margin-left: 2rem;
+    margin-left: 0 2rem 0 2rem;
     font-size: 30px; 
-    margin-right: 2rem;
     
 }
 #definition{
