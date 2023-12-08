@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(13, 81, 53) ;
+  
+}
+p{
+    display: inline-flex;
+    font-family: "Rubik",sans-serif;
+
+
+}
+#dictbox{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    /* padding: 1rem 2rem 3rem 0; */
+    border-radius: 5px;
+    margin: auto;
+    background-color: aliceblue;
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+#holethings{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom:auto ;
+}
+#searchbox{
+    display: inline-flex;
+    padding: 0;
+    margin: 0.5rem 0 2rem 1.5rem ; 
+}
+#searcher{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(13, 81, 53) ;
+    /* border-radius: 5px;
+    border-width: 0.2px; */
+    width: 80%;
+    height: 30px;
+
+}
+#dictpart{
+    display: inline-flex;
+    flex-direction: column;
+}
+#word_and_spelling{
+    display: inline-flex;
+}
+#definitionpart{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+#spelling{
+    background-color: rgba(127, 255, 212, 0);
+    border: none;
+    display: inline-flex;
+    cursor: pointer;
+}
+#spellingicon{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
+}
+#finderbutton{
+    cursor: pointer;
+    margin-left:0.3rem;
+    background-color: rgba(127, 255, 212, 0);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+#finderbuttonicon{
+    width: 25px;
+}
+#wordandspelling{
+    display: flex;
+    flex-direction: row;
+    
+}
+#word{
+
+    display: inline-flex;
+    margin-left: 2rem;
+    font-size: 30px; 
+    margin-right: 2rem;
+    
+}
+#definition{
+    font-style: italic;
+    margin: 0.5rem 2rem;
+
+}
+#example{
+    opacity: 0.7;
+    font-size:small;
+    margin: 0 0rem 1rem 2rem;
+    font-style: italic;
+    border-left: 3px solid  rgb(13, 81, 53);
+    padding-left: 5px;
+}
+#typeofword{
+    font-size: x-small;
+    margin-left: 2rem;
+    font-style: oblique;
+}
